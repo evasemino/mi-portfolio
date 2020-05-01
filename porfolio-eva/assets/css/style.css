@@ -35,9 +35,7 @@ hr {
   background-color: black;
 }
 .carousel-indicators {
-    top: 6rem;
-    
-  
+    top: 6rem;    
   }
 
 .carousel-indicators li {
@@ -45,20 +43,13 @@ hr {
     height: 10px;
     border-radius: 50%;
     color:#373A3C;
-  
   }
 
 
-.soy-wrapper1 {
-            padding-top: 20px;
-            font-size: 1em;
-        }
-
-
-.hr {
-  width: 2rem;
-        }
-
 .experiencia {
     background-color: black;
+}
+
+.inscribime {
+  background-color: green;
 }

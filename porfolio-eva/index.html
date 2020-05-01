@@ -12,21 +12,14 @@
     <title>Eva Semino</title>
 
     <link rel="shortcut icon" type="image/png" href="assets/img/favicon.png" />
-
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;400;700&display=swap" rel="stylesheet">
-
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
-
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
         integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
-
     <link rel="stylesheet" href="assets/css/style.css">
-
-
 </head>
 
 <body>
-
     <nav class="mitipo navbar navbar-expand-md navbar-dark fixed-top">
         <div class="container">
             <a class="navbar-brand logo active" href="#">Eva Semino</a>
@@ -34,8 +27,6 @@
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-
-
 
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ml-auto">
@@ -67,17 +58,12 @@
         </div>
     </nav>
 
-
     <header class="pt-5">
-
         <div class="conteiner-fluid text-light text-center pt-5 about">
             <h2 class="pt-3"> EVA SEMINO </h2>
             <hr class="border-white">
             <h2 class="font-weight-bold"> artista & diseñadora </h2>
-
         </div>
-
-
     </header>
 
     <section id="sobremi" class="conteiner-fluid text-center pb-4 d-none d-sm-block about">
@@ -87,33 +73,31 @@
             UI y maquetadora web en progreso.</p>
     </section>
 
-
     <section id="bio" class="conteiner-fluid text-center pb-4 ">
         <div class="container-fluid mt-1 p-4 experiencia text-light">
             <div class="mx-auto">
                 <hr class="border-dark my-1 hr">
             </div>
             <h4>BIO</h4>
-            <p class="soy-wrapper1">
+            <p>
                 Comencé mi formación como Artista Visual en la Escuela Figueroa Alcorta de Córdoba. En 2012 se mudé a
                 Buenos Aires para continuar mis estudios sobre Artes Electrónicas en UNTREF. Asisto regularmente a
                 talleres, clínicas y seminarios de interés en el campo del Arte Contemporáneo Argentino.
 
-                <p class="soy-wrapper1"> Participé en muestras nacionales e internacionales. Algunos de los espacios en
+                <p> Participé en muestras nacionales e internacionales. Algunos de los espacios en
                     los que exhibí de forma individual o colectiva: Il Ciclo Divino (Italia); Haus, Centro Cultural
                     Recoleta, El Universo (Buenos Aires); El Gran Vidrio, Centro Cultural España Córdoba, MUMU
                     (Córdoba); Estudio Tigomigo (Barcelona); La Decanatura (Bogotá), entre otras.
                 </p>
-                <p class="soy-wrapper1">
+                <p>
                     Mi obra forma parte de colecciones privadas.
                 </p>
-                <p class="soy-wrapper1">
+                <p>
                     Trabajo de manera independiente como artista, diseñadora y docente.
                     Actualmente vivo en la ciudad de Córdoba, Argentina.
                 </p>
-                <div class="mx-auto">
-                    <hr class="border-dark my-1 hr">
-                </div>
+
+
 
     </section>
 
@@ -184,7 +168,7 @@
         <div class="mx-auto">
             <hr class="border-dark my-1 hr">
         </div>
-        <h4>FORMACION</h4>
+        <h4 class="pt-4">FORMACION</h4>
         <div>
             <p> Diseño UX UI, Desafío Latam. </p>
             <p> Dirección de Arte, Escuela Cinematografica Argentina. </p>
@@ -200,7 +184,10 @@
 
     <section id="trabajos">
         <div class="container-fluid mt-4 p-4 experiencia font-weight-bold text-light">
-            <h4>ULTIMOS TRABAJOS</h4>
+            <div class="mx-auto">
+                <hr class="border-dark my-1 hr">
+            </div>
+            <h4 class="pt-4">ULTIMOS TRABAJOS</h4>
             <div class="mx-auto p-4">
                 <hr class="border-dark my-1 hr">
             </div>
@@ -289,9 +276,36 @@
         <div class="mx-auto">
             <hr class="border-dark my-1 hr">
         </div>
-        <h4>DOCENCIA</h4>
+        <h4 class="pt-4">DOCENCIA</h4>
         <p> WS COLLAGE & EXORCISMO | SEMINARIO COLLAGE CRUCERO | COLLAGE CRUCERO ONLINE
         </p>
+        <!-- Button trigger modal -->
+        <button type="button" class="btn btn-success text-uppercase" data-toggle="modal" data-target="#inscripcion">
+            Inscribirme
+        </button>
+
+        <!-- Modal -->
+        <div class="modal fade" id="inscripcion" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Inscripción</h5>
+                        <button type="button" class="close btn-secondary" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <p>Esta de acuerdo en agendar el proximo encuentro?</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                        <button type="button" class="btn btn-primary">Agendar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
 
         <section class="container mx-auto my-5 d-block">
             <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
